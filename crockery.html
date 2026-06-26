@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSavvy</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <script src="script.js"></script>
+     <!--Font Awesome Cdn-->  
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+     <!-- Google Font Cdn-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Nova+Script&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Nova+Script&display=swap" rel="stylesheet">
+  <!-- Google Font Cdn-->
+ 
+      
+        <!-- <title>Bootstrap Site link</title> -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+      <!-- <title>Bootstrap Site link End</title> --></head>
+
+<body>
+  <!--Navbar Start-->
+    <header class="sticky-md-top">
+        <nav class="navbar navbar-expand-sm navbar-light bg-success justify-content-center">
+            <a class="navbar-brand text-white p-2" href="#"><i class="fa fa-shopping-cart fa-2x p-2" aria-hidden="true"></i></a>
+
+<!--Sarch bar start-->
+<input class="form-control w-50" type="text" placeholder="Search" id="search-item" onkeyup="search(this)">
+<!--Sarch bar end-->
+
+              <button class="btn btn-outline-warning m-2 p-2 " type="submit">Search</button>
+              <p class="pp p-3 mt-2"><a href="login.html" style="color: aliceblue; text-decoration: none;">Login</a></p>
+              <p class="pp p-3 mt-2">|</p> 
+              <p class="pp p-3 mt-2"><a href="signup.html" style="color: aliceblue; text-decoration: none;"> Sign Up </a></p>
+
+              <div class="dropdown">
+                <button class="btn btn-outline-light dropdown-toggle" type="button" data-toggle="dropdown">All Categories
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="mensfashion.html" style="text-decoration: none;">Men's Fashion</a></li>
+                  <li><a href="womwnsfashon.html" style="text-decoration: none;">Women's Fashion</a></li>
+                  <li><a href="electronics.html" style="text-decoration: none;">Electronic Devices</a></li>
+                  <li><a href="watch.html" style="text-decoration: none;">Watch</a></li>
+                  <li><a href="bags.html" style="text-decoration: none;">Bags</a></li>
+                  <li><a href="jwlry.html" style="text-decoration: none;">Jewellery</a></li>
+                  <li><a href="sports.html" style="text-decoration: none;">Sports and Outdoor</a></li>
+                  <li><a href="home&lifestyle.html" style="text-decoration: none;">Home and Lifestyle</a></li>
+                  <li><a href="smartphones.html" style="text-decoration: none;">Smart Phones</a></li>
+                  <li><a href="crockery.html" style="text-decoration: none;">Crockery</a></li>
+                </ul>
+              </div>
+          </div>
+              </nav>
+              
+              
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <div class="dropdown">
+                  <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">Special Offer
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" style="text-decoration: none;">Sale</a></li>
+                    <li><a href="#" style="text-decoration: none;">Free Delivery</a></li>
+                    <li><a href="#" style="text-decoration: none;">Buy One Get One</a></li>
+                  </ul>
+                </div>
+            </div>
+</nav></header>
+<!--Navbar End-->

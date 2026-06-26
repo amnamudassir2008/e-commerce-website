@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logoimg.png">
+
+    <title>ShopSavvy</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <script src="script.js"></script>
+     <!--Font Awesome Cdn-->  
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+     <!-- Google Font Cdn-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Nova+Script&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Nova+Script&display=swap" rel="stylesheet">
+  <!-- Google Font Cdn-->
+ 
+      
+        <!-- <title>Bootstrap Site link</title> -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+      <!-- <title>Bootstrap Site link End</title> --></head>
+
+<body>
+    <header class="sticky-md-top">
+        <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+            <a class="navbar-brand text-white p-2" href="#"><i class="fa fa-shopping-cart fa-2x p-2" aria-hidden="true"></i></a>
+
+<!--Sarch bar start-->
+<input class="form-control w-50" type="text" placeholder="Search" id="search-item" onkeyup="search(this)">
+<!--Sarch bar end-->
+
+              <button class="btn btn-outline-warning m-2 p-2 " type="submit">Search</button>
+              <p class="pp p-3 mt-2"><a href="login.html" style="color: aliceblue; text-decoration: none;">Login</a></p>
+              <p class="pp p-3 mt-2">|</p> 
+              <p class="pp p-3 mt-2"><a href="signup.html" style="color: aliceblue; text-decoration: none;"> Sign Up </a></p>
+              </nav>
+              
+              
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <div class="dropdown">
+                  <!-- <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">Special Offer
+                  <span class="caret"></span></button> -->
+                  <button class="btn custom-offer-btn dropdown-toggle" type="button" data-toggle="dropdown">
+    Special Offer
+    <span class="caret"></span>
+</button>                  <ul class="dropdown-menu">
+                    <li><a href="#" style="text-decoration: none;">Sale</a></li>
+                    <li><a href="#" style="text-decoration: none;">Free Delivery</a></li>
+                    <li><a href="#" style="text-decoration: none;">Buy One Get One</a></li>
+                  </ul>
+                </div>
+            </div>
+</nav></header>
+
+<!--Navbar End-->
+
+<!-- Watch Hero Banner -->
+<section class="watch-banner py-5">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+                <div class="banner-content">
+                    <span class="sale-badge">Luxury Collection</span>
+                    <h1>Timeless Watches for Every Style</h1>
+                    <p>Explore premium men's and women's watches crafted for elegance, fashion, and performance.</p>
+                    <a href="#" class="fashion-btn">Shop Now</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <img src="images/watch/poster1.avif" class="img-fluid rounded" alt="">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Men's Watches -->
+<section class="watch-section py-5">
+    <div class="container">
+
+        <h2 class="section-title text-center">Men's Watches Collection</h2>
+
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="fashion-card">
+                    <span class="sale-badge">New</span>
+                    <img src="images/watch/menwatch1.webp" alt="">
+                    <div class="fashion-content">
+                        <h4>Fashion Watch</h4>
+                        <p>Rs. 4,999</p>
+                        <a href="watch.html" class="fashion-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="fashion-card">
+                    <span class="sale-badge">Hot</span>
+                    <img src="images/watch/menwatch2.webp" alt="">
+                    <div class="fashion-content">
+                        <h4>Casual Watch</h4>
+                        <p>Rs. 3,499</p>
+                        <a href="watch.html" class="fashion-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="fashion-card">
+                    <span class="sale-badge">Sale</span>
+                    <img src="images/watch/menwatch3.webp" alt="">
+                    <div class="fashion-content">
+                        <h4>Classic Watch</h4>
+                        <p>Rs. 5,299</p>
+                        <a href="watch.html" class="fashion-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="fashion-card">
+                    <span class="sale-badge">Trending</span>
+                    <img src="images/watch/menwatch4.webp" alt="">
+                    <div class="fashion-content">
+                        <h4>Business Watch</h4>
+                        <p>Rs. 6,499</p>
+                        <a href="watch.html" class="fashion-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Women's Watches -->
+<section class="watch-section py-5">
+    <div class="container">
+
+        <h2 class="section-title text-center">Women's Watches Collection</h2>
+
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="fashion-card">
+                    <span class="sale-badge">New</span>
+                    <img src="images/watch/womenwatch1.jpg" alt="">
+                    <div class="fashion-content">
+                        <h4>Casual Watch</h4>
+                        <p>Rs. 3,999</p>
+                        <a href="watch.html" class="fashion-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="fashion-card">
+                    <span class="sale-badge">Hot</span>
+                    <img src="images/watch/womenwatch2.webp" alt="">
+                    <div class="fashion-content">
+                        <h4>Fancy Watch</h4>
+                        <p>Rs. 4,499</p>
+                        <a href="watch.html" class="fashion-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="fashion-card">
+                    <span class="sale-badge">Sale</span>
+                    <img src="images/watch/womenwatch3.webp" alt="">
+                    <div class="fashion-content">
+                        <h4>Fashion Watch</h4>
+                        <p>Rs. 5,299</p>
+                        <a href="watch.html" class="fashion-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="fashion-card">
+                    <span class="sale-badge">Trending</span>
+                    <img src="images/watch/womenwatch4.webp" alt="">
+                    <div class="fashion-content">
+                        <h4>Business Watch</h4>
+                        <p>Rs. 6,199</p>
+                        <a href="watch.html" class="fashion-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="footer-section">
+    <div class="container">
+        <div class="row">
+
+
+        <!-- Brand -->
+        <div class="col-md-4">
+            <h2 class="footer-logo">ShopSavvy</h2>
+            <p>
+                Discover luxury fashion, premium shawls, elegant abayas, 
+                stylish accessories, and modern outfits for every season.
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Categories -->
+        <div class="col-md-3">
+            <h4>Categories</h4>
+            <ul class="footer-links">
+                <li><a href="mensfashion.html">Men's Fashion</a></li>
+                <li><a href="womwnsfashon.html">Women's Fashion</a></li>
+                <li><a href="electronics.html">Electronics</a></li>
+                <li><a href="watch.html">Watch</a></li>
+                <li><a href="bags.html">Bags</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-md-3">
+            <h4>Contact Us</h4>
+            <p><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</p>
+            <p><i class="fa-solid fa-phone"></i> +92 300 1234567</p>
+            <p><i class="fa-solid fa-envelope"></i> info@shopsavvy.com</p>
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="footer-bottom text-center">
+        <p>© 2026 ShopSavvy | All Rights Reserved</p>
+    </div>
+</div>
+
+
+</footer>
+
+    
+   
+</body>
+</html>
